@@ -2,8 +2,7 @@
     Dim drag As Boolean
     Dim mousex As Integer
     Dim mousey As Integer
-
-
+    
     'MouseDown
         drag = True 'Sets the variable drag to true.
         mousex = Windows.Forms.Cursor.Position.X - Me.Left 'Sets variable mousex
